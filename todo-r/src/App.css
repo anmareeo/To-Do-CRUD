@@ -1,9 +1,14 @@
 
 .Container { 
-  
-
+ max-width: 400px;
+ border: black solid; 
 }
 
+.List { 
+  min-width: 380px;
+    padding:20px;
+    
+ }
 .App {
   text-align: center;
 }
@@ -22,16 +27,19 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  min-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 2vmin);
   color: white;
+  
+  
 }
 
 .App-link {
-  color: #61dafb;
+  color: #2cb6e0;
 }
 
 @keyframes App-logo-spin {

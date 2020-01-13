@@ -48,6 +48,8 @@ export default function ToDoList() {
 
   return ( 
   <div>
+    <div className = 'Container'>
+    <div className = 'List'>
     <h1> To-Do List </h1>
     <Input loadPage={loadPage}></Input>
     <List component = "nav"
@@ -65,6 +67,8 @@ export default function ToDoList() {
       }
 
     </List> 
+    </div>
+    </div>
     </div>
 
   )

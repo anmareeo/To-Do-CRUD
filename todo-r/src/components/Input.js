@@ -49,8 +49,9 @@ export default function SimpleModal(props) {
 
 
   //in jsx on the return, use a terniary operator instead of an if statement....so edit mode?_____,_______.
-
-
+  // const handleDelete = () => {
+  // setOpen(true)
+  // }
   const handleOpen = () => {
     setOpen(true);
   };
@@ -101,6 +102,8 @@ fetch(`${baseEndPoint}${currentAPI}/items${id}`,{
       </button>
     )
     }
+
+    
     
 
      
